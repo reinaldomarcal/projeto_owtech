@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/06/11 21:34:55.000.675,=C:\Users\reinaldo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/11 21:44:24.000.886,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\erp_balanca.pas=C:\Users\reinaldo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/11 21:44:24.000.886,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\erp_balanca.dfm=C:\Users\reinaldo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/06/11 21:44:51.000.980,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\balanca.dproj=C:\Users\reinaldo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/06/11 21:48:44.000.171,=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.pas</Transaction>
+    <Transaction>2018/06/11 21:50:25.000.289,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.pas=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\cadastros\dfm\frmCadCliente.pas</Transaction>
+    <Transaction>2018/06/11 21:50:25.000.289,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.dfm=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\cadastros\dfm\frmCadCliente.dfm</Transaction>
+    <Transaction>2018/06/14 20:23:22.000.370,=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.pas</Transaction>
+    <Transaction>2018/06/14 20:24:28.000.859,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.dfm=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\cadastros\dataModule\datmCadCliente.dfm</Transaction>
+    <Transaction>2018/06/14 20:24:28.000.859,C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\Unit1.pas=C:\Users\reinaldo\Desktop\projeto owTech\trunk\src\cadastros\dataModule\datmCadCliente.pas</Transaction>
+  </Transactions>
+</BorlandProject>

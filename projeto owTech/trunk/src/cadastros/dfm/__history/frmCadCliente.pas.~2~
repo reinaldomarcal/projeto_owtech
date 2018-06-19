@@ -1,0 +1,108 @@
+unit frmCadCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.DBCtrls,
+  Vcl.Mask, Vcl.Grids, Vcl.DBGrids, Vcl.ComCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Panel1: TPanel;
+    btn_incluir: TSpeedButton;
+    btn_salvar: TSpeedButton;
+    btn_cancelar: TSpeedButton;
+    btn_excluir: TSpeedButton;
+    btn_sair: TSpeedButton;
+    btn_pesquisa: TSpeedButton;
+    DBNavigator: TDBNavigator;
+    edt_pesquisa: TEdit;
+    pgctrl_cadastro: TPageControl;
+    tsListagem: TTabSheet;
+    dbgrdArmazem: TDBGrid;
+    tsDados: TTabSheet;
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label21: TLabel;
+    Label17: TLabel;
+    SpeedButton12: TSpeedButton;
+    Label38: TLabel;
+    Label39: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label14: TLabel;
+    Label16: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label20: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label18: TLabel;
+    Label30: TLabel;
+    Label31: TLabel;
+    dbedt_cd_armazem: TDBEdit;
+    dbedt_nm_armazem: TDBEdit;
+    dbedt_end_armazem: TDBEdit;
+    dbedt_num_armazem: TDBEdit;
+    dbedt_bairro_armazem: TDBEdit;
+    dbedt_complemento_armazem: TDBEdit;
+    dbedt_cd_cidade: TDBEdit;
+    dbedt_nm_cidade: TDBEdit;
+    dbedt_nm_uf: TDBEdit;
+    dbedt_nm_pais: TDBEdit;
+    dbedt_fone_armazem: TDBEdit;
+    dbedt_fax_armazem: TDBEdit;
+    dbedt_cep_armazem: TDBEdit;
+    dbedt_cnpj_armazem: TDBEdit;
+    dbedt_ie_armazem: TDBEdit;
+    dbedt_aliquota_iss: TDBEdit;
+    DBLookupComboBox2: TDBLookupComboBox;
+    dbedt_email_armazem: TDBEdit;
+    edt_nr_serie: TDBEdit;
+    DBLookupComboBox1: TDBLookupComboBox;
+    DBLookupComboBox3: TDBLookupComboBox;
+    DBCheckBox1: TDBCheckBox;
+    GroupBox2: TGroupBox;
+    btn_banco: TSpeedButton;
+    Label19: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Label25: TLabel;
+    Label26: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    dbedt_cd_banco: TDBEdit;
+    dbedt_nm_banco: TDBEdit;
+    dbedt_carteira: TDBEdit;
+    dbedt_agencia: TDBEdit;
+    dbedt_perc_multa_atraso: TDBEdit;
+    dbedt_conta_corrente: TDBEdit;
+    dbedt_digito_conta_corrente: TDBEdit;
+    dbmmo_bos_boleto: TDBMemo;
+    dbedt_digito_agencia: TDBEdit;
+    dbedt_cd_empresa_banco: TDBEdit;
+    edtNM_SEGURADORA: TDBEdit;
+    edtNR_APOLICE_SEGURADORA: TDBEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

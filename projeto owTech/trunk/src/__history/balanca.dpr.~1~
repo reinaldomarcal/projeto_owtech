@@ -1,0 +1,14 @@
+program balanca;
+
+uses
+  Vcl.Forms,
+  erp_balanca in 'erp_balanca.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

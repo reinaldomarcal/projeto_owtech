@@ -1,0 +1,78 @@
+unit frmCadCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.DBCtrls,
+  Vcl.Mask, Vcl.Grids, Vcl.DBGrids, Vcl.ComCtrls, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    pgClientes: TPageControl;
+    tsDados: TTabSheet;
+    GroupBox1: TGroupBox;
+    lCodigo: TLabel;
+    eCodigo: TEdit;
+    Label12: TLabel;
+    edtDtInclusao: TEdit;
+    Label20: TLabel;
+    cbAtivo: TComboBox;
+    Label2: TLabel;
+    edtNomeEmpresa: TEdit;
+    Label1: TLabel;
+    lblNomeFantasia: TLabel;
+    edtNomeFantasia: TEdit;
+    tsEndereco: TTabSheet;
+    lblCnpj: TLabel;
+    edtCnpj: TEdit;
+    edtIE: TEdit;
+    lblIE: TLabel;
+    GroupBox2: TGroupBox;
+    tsTelefone: TTabSheet;
+    GroupBox3: TGroupBox;
+    Label3: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Edit2: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    DBGrid1: TDBGrid;
+    DBGrid2: TDBGrid;
+    Panel1: TPanel;
+    btn_incluir: TSpeedButton;
+    btn_salvar: TSpeedButton;
+    btn_cancelar: TSpeedButton;
+    btn_excluir: TSpeedButton;
+    btn_sair: TSpeedButton;
+    btn_pesquisa: TSpeedButton;
+    DBNavigator: TDBNavigator;
+    edt_pesquisa: TEdit;
+    GroupBox4: TGroupBox;
+    lblEndereco: TLabel;
+    edtEndereco: TEdit;
+    edtComplemento: TEdit;
+    cbEstado: TComboBox;
+    lblEstado: TLabel;
+    edtNumero: TEdit;
+    lblNumero: TLabel;
+    lblBairro: TLabel;
+    edtBairro: TEdit;
+    edtCep: TEdit;
+    lblCep: TLabel;
+    Label4: TLabel;
+    DBGrid3: TDBGrid;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

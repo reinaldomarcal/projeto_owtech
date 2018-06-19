@@ -1,0 +1,26 @@
+unit datmCadCliente;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXMySQL, Data.DB, Data.SqlExpr;
+
+type
+  TdtmCadCliente = class(TDataModule)
+    sqlCPrincipal: TSQLConnection;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dtmCadCliente: TdtmCadCliente;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.
